@@ -15,17 +15,18 @@
   "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "browserlist": "^1.0.1",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-file-include": "^2.1.1",
     "gulp-filter": "^6.0.0",
     "gulp-ignore": "^2.0.2",
-    "gulp-newer": "^1.4.0",
-    "gulp-slim": "^0.3.0",
-    "gulp-sourcemaps": "^2.6.5"
-  },
-  "dependencies": {
     "gulp-markdown": "^5.0.1",
-    "node-sass": "^4.13.0"
-  }
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-slim": "^0.3.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {}
 }

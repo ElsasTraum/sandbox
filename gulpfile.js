@@ -1,15 +1,13 @@
 "use strict";
 
 var gulp = require("gulp");
-var sass = require("node-sass");
+var sass = require("gulp-sass");
 var sourcemaps = require("gulp-sourcemaps");
 var autoprefixer = require("gulp-autoprefixer");
-var autoprefixerOptions = {
-    browsers: ["last 2 versions", "> 5%", "Firefox ESR"]
-};
+var autoprefixerOptions = {};
 var slim = require("gulp-slim");
 var md = require("gulp-markdown");
-var fileinclude = require('gulp-file-include');
+var fileInclude = require('gulp-file-include');
 var browserSync = require("browser-sync").create();
 var newer = require("gulp-newer");
 var gulpIgnore = require("gulp-ignore");
@@ -21,7 +19,7 @@ var paths = {
         output: "dist/",
         layout: "src/layout/"
     },
-    sass: {
+    styles: {
         input: "src/sass/**/*.scss",
         output: "dist/css/"
     },
@@ -32,20 +30,22 @@ var paths = {
 };
 
 // SASS to CSS
+sass.compiler = require('node-sass');
+
 function style() {
     return (
         gulp
-        .src(paths.sass.input)
-        .pipe(sourcemaps.init())
+        .src(paths.styles.input, {
+            since: gulp.lastRun(style),
+            sourcemaps: true
+        })
         .pipe(
             sass({
                 outputStyle: "compressed"
             }).on("error", sass.logError)
         )
         .pipe(autoprefixer(autoprefixerOptions))
-        .pipe(sourcemaps.write(""))
-        .pipe(gulp.dest(paths.sass.output))
-        // Add browsersync stream pipe after compilation
+        .pipe(gulp.dest(paths.styles.output), { sourcemaps: './maps' })
         .pipe(browserSync.stream())
     );
 }
@@ -122,6 +122,7 @@ function htmlInclude() {
             })
         )
         .pipe(gulp.dest(paths.html.layout));
+    done();
 }
 
 // Markdown to HTML
@@ -131,46 +132,55 @@ function md() {
         .pipe(gulp.dest(paths.html.output));
 }
 
-// fileinclude 合併html
-function fileinclude() {
-    return gulp.src(paths.md.output)
-        .pipe(fileinclude({
-            prefix: '@@',
-        }))
+// fileInclude 合併html
+function fileInclude() {
+    return gulp.src("src/markdown/md2html/*.html")
+        .pipe(fileInclude())
         .pipe(gulp.dest(paths.html.output))
         .pipe(browserSync.stream());
+    done();
 }
 
 // BrowserSync Reload
+const browserSyncOption = {
+    server: {
+        baseDir: './dist/',
+        index: 'index.html',
+    },
+    reloadOnRestart: true,
+};
+
 function browserSyncReload() {
     browserSync.reload();
+    done();
 }
 
-// Add browsersync initialization at the start of the watch task
-function watch() {
+function browsersync(done) {
+    browserSync.init(browserSyncOption);
+    done();
+}
+
+function watchFiles(done) {
     browserSync.init({
         // You can tell browserSync to use this directory and serve it as a mini-server
         server: {
-            baseDir: "./dist"
-            // index: "2.shop--index.html"
+            baseDir: "./dist",
+            index: 'index.html'
         }
     });
-    gulp.watch(paths.sass.input, style);
-    gulp.watch(paths.html.input, htmlPage);
-    gulp.watch(["src/slim/0.include/*.slim"], htmlInclude);
-    gulp.watch(paths.md.input, md);
-    gulp.watch(paths.md.output, fileinclude);
-    gulp.watch(
-        ["./dist/js/**/*", "./dist/images/**/*", "./dist/fonts/**/*"],
-        browserSyncReload
-    );
+    gulp.watch(paths.styles.input, gulp.task('style'));
+    gulp.watch(paths.html.input, gulp.task('htmlPage'));
+    gulp.watch(["src/slim/0.include/*.slim"], gulp.task('htmlInclude'));
+    gulp.watch(paths.md.input, gulp.task('md'));
 }
+
+gulp.task('default', gulp.series(gulp.parallel(htmlPage, style, md), watchFiles));
+
 
 // export tasks
 exports.style = style;
 exports.htmlPage = htmlPage;
 exports.htmlInclude = htmlInclude;
 exports.md = md;
-exports.fileinclude = fileinclude;
-exports.watch = watch;
-exports.default = watch;
+exports.fileInclude = fileInclude;
+exports.watchFiles = watchFiles;
