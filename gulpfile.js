@@ -7,7 +7,7 @@ var autoprefixer = require("gulp-autoprefixer");
 var autoprefixerOptions = {};
 var slim = require("gulp-slim");
 var md = require("gulp-markdown");
-var fileInclude = require('gulp-file-include');
+var fileIncl = require('gulp-file-include');
 var browserSync = require("browser-sync").create();
 var newer = require("gulp-newer");
 var gulpIgnore = require("gulp-ignore");
@@ -126,16 +126,16 @@ function htmlInclude() {
 }
 
 // Markdown to HTML
-function md() {
+function md2html() {
     return gulp.src('src/md/**/*.md')
         .pipe(md())
-        .pipe(gulp.dest(paths.html.output));
+        .pipe(gulp.dest(paths.md.output));
 }
 
 // fileInclude 合併html
-function fileInclude() {
+function fileIncl() {
     return gulp.src("src/markdown/md2html/*.html")
-        .pipe(fileInclude())
+        .pipe(fileinclude())
         .pipe(gulp.dest(paths.html.output))
         .pipe(browserSync.stream());
     done();
@@ -171,16 +171,17 @@ function watchFiles(done) {
     gulp.watch(paths.styles.input, gulp.task('style'));
     gulp.watch(paths.html.input, gulp.task('htmlPage'));
     gulp.watch(["src/slim/0.include/*.slim"], gulp.task('htmlInclude'));
-    gulp.watch(paths.md.input, gulp.task('md'));
+    gulp.watch(paths.md.input, gulp.task('md2html'));
+    gulp.watch(paths.md.output, gulp.task('fileIncl'));
 }
 
-gulp.task('default', gulp.series(gulp.parallel(htmlPage, style, md), watchFiles));
+gulp.task('default', gulp.series(gulp.parallel(htmlPage, style, md2html), watchFiles));
 
 
 // export tasks
 exports.style = style;
 exports.htmlPage = htmlPage;
 exports.htmlInclude = htmlInclude;
-exports.md = md;
-exports.fileInclude = fileInclude;
+exports.md2html = md2html;
+exports.fileIncl = fileIncl;
 exports.watchFiles = watchFiles;
