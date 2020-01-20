@@ -1,0 +1,37 @@
+/* *************************************
+//
+//   iBus -- Base
+//   -> 基本html樣式定義
+//
+//   00.Global
+//
+// ************************************/
+
+/* -------------------------------------
+//   00.Global
+// -----------------------------------*/
+
+ul {
+    padding-left: 1em;
+}
+
+
+
+/* Hide HTML5 Up and Down arrows. */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+/* 修復safari的顯示bug */
+
+.row::before,
+.row::after {
+    width: 0;
+}
