@@ -1,0 +1,910 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fileIn",
+				"fileIncl"
+			],
+			[
+				"md",
+				"md2html"
+			],
+			[
+				"use",
+				"useref"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"text",
+				"textsize"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"border-ri",
+				"border-right-color\tproperty"
+			],
+			[
+				"form",
+				"form-text"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"maw",
+				"max-width\tproperty"
+			],
+			[
+				"borr",
+				"border-radius\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"borderr",
+				"border-right\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"texta",
+				"text-align\tproperty"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"flex-",
+				"flex-grow\tproperty"
+			],
+			[
+				"border-",
+				"border-bottom\tproperty"
+			],
+			[
+				"lign",
+				"line-height\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"po",
+				"pos-f\tposition: fixed;"
+			],
+			[
+				"date",
+				"datetimepicker"
+			],
+			[
+				"fle",
+				"flex-end\tjustify-content"
+			],
+			[
+				"be",
+				"space-between\tjustify-content"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"border",
+				"border-bottom\tproperty"
+			],
+			[
+				"boder-r",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"al",
+				"alternate\tanimation-direction"
+			],
+			[
+				"ease",
+				"ease-in\tanimation-timing-function"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
+				"trans",
+				"translateY()\ttransform"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"im",
+				"imbu\t@include media-breakpoint-up(){}"
+			],
+			[
+				"texl",
+				"text-align\tproperty"
+			],
+			[
+				"borderco",
+				"border-color\tproperty"
+			],
+			[
+				"bacc",
+				"background-color\tproperty"
+			],
+			[
+				"tea",
+				"text-align\tproperty"
+			],
+			[
+				"cu",
+				"cursor\tproperty"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"i",
+				"imbd\t@include media-breakpoint-down(){}"
+			],
+			[
+				"text-",
+				"text-shadow\tproperty"
+			],
+			[
+				"cl",
+				"colm\tcolumns"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"borde",
+				"border-bottom\tproperty"
+			],
+			[
+				"texa",
+				"text-align\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"tra",
+				"translateY()\ttransform"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"lis",
+				"list\tlist-style-type"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 5805,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/template/novel-temp.html",
+			"settings":
+			{
+				"buffer_size": 412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/slim/test.slim",
+			"settings":
+			{
+				"buffer_size": 82,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/markdown/md/aph_sib.md",
+			"settings":
+			{
+				"buffer_size": 14663,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/slim/0.include/header.slim",
+			"settings":
+			{
+				"buffer_size": 41,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "header"
+			}
+		},
+		{
+			"file": "src/slim/1.template/novel-temp.slim",
+			"settings":
+			{
+				"buffer_size": 165,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/slim/0.include/head.slim",
+			"settings":
+			{
+				"buffer_size": 189,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/slim/0.include/footer.slim",
+			"settings":
+			{
+				"buffer_size": 18,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "footer"
+			}
+		},
+		{
+			"file": "src/slim/index.slim",
+			"settings":
+			{
+				"buffer_size": 111,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pace",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"html",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Channel"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ElsaCheng/Repositories/sandbox",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/template"
+	],
+	"file_history":
+	[
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/sass/_base.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/style.scss",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/sass/style.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_base.scss",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/slim/0.include/head.slim",
+		"/C/Users/ElsaCheng/Repositories/sandbox/dist/aph_sib.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/markdown/md/aph_sib02.md",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/markdown/md/aph_sib.md",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/markdown/md2html/aph_sib.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/module/0.include/header.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/module/0.include/html-head.md",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/module/0.include/html-head.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/slim/0.include/html-head.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/gulpfile.js",
+		"/C/Users/ElsaCheng/Repositories/sandbox/dist/index.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/markdown/md2html/index.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/package.json",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/head.slim",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/markdown/md/123.md",
+		"/C/Users/ElsaCheng/Repositories/ESi-201910-AIM-AllianzGI/gulpfile.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201910-AIM-AllianzGI/package.json",
+		"/C/Users/ElsaCheng/Repositories/ESi-201912-AIM/gulpfile.js",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/include/view.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/slim/test.slim",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/include/var.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/markdown/md2html/index2.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/layout/layout.html",
+		"/C/Users/ElsaCheng/Repositories/sandbox/src/layout.html",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-AIM/190910 抽獎活動頁面/style.css",
+		"/C/Users/ElsaCheng/Desktop/LIFFRaffleInformationPage/css/style.css",
+		"/C/Users/ElsaCheng/Desktop/LIFFRaffleInformationPage/LIFFRaffleInformationPage.html",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/dist/css/style.css",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/3.1.search.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/3.2.search.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/5.1.links.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/5.2.links.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/5.3.links.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/2.1.notify.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/sitemap.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/security.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/privacy.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/feedback03.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/feedback02.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/feedback01.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/6.1.download.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/5.5.links.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/5.4.links.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_partial-bus.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/3.3.search.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/3.4.search.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/4.bus--01.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/4.bus.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/footer.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/topnav.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/2.notify.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/about.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_partial-notify.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/fpmenu.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/dist/css/pickadate/classic.css",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/index.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_module.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/dist/js/script.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_partial-index.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_layout.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201908-AIM/src/AIM.Web/ClientApp/src/scss/style.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/frame/Bootstrap_v4.3.1/_bootstrap.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/fontawesome.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/share.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/footer-script.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/secutiry.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_partial-srch.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/dist/js/autocomplete.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_partial-links.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_partial-sitemap.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/README.md",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_theme.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/noscript.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/_mixin.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/frame/Bootstrap_v4.3.1/_variables.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/footer-old.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/frame/Bootstrap_v4.3.1/_buttons.scss",
+		"/C/Users/ElsaCheng/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/ElsaCheng/AppData/Roaming/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/C/Users/ElsaCheng/Repositories/ESi-201908-AIM/src/AIM.Web/ClientApp/src/scss/vendors/_variables.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201908-AIM/src/AIM.Web/ClientApp/src/scss/_variables.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/5.links.slim",
+		"/C/Users/ElsaCheng/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/ElsaCheng/Repositories/ESi-201809-SIGMU/src/slim/2.shop--cart.2.1.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/dist/js/collapseFeature.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201809-SIGMU/src/slim/0.include/footer--script.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/dist/js/jquery-3.4.1.min.js",
+		"/C/Program Files/Sublime Text 3/ESi-210909-iBus.sublime-project",
+		"/C/Users/ElsaCheng/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/frame/Bootstrap_v4.3.1/mixins/_buttons.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/package.json",
+		"/C/Users/ElsaCheng/Repositories/ESi-201709-CECI/src/slim/includes/hp-anno__company.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/frame/Bootstrap_v4.3.1/_forms.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201709-CECI/dist/js/defaultFeature.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201709-CECI/dist/js/homePageFeature.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201709-CECI/dist/js/catalogFeature.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201910-AIM/獎項清單_files/award.css",
+		"/C/Users/ElsaCheng/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/dist/js/footerFeature.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201809-SIGMU/src/sass/_layout.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/z-index list.txt",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/slim/0.include/glb-menu.slim",
+		"/C/Users/ElsaCheng/Repositories/ESi-201809-SIGMU/dist/Content/js/script.js",
+		"/C/Users/ElsaCheng/Repositories/ESi-201809-SIGMU/z-index list.txt",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-iBus/src/sass/frame/Bootstrap_v4.3.1/_images.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-AIM/190910 獎項清單/兌換頁面.html",
+		"/C/Users/ElsaCheng/Repositories/ESi-201909-AIM/190910 獎項清單/獎項清單_files/award.css",
+		"/C/Users/ElsaCheng/Repositories/ESi-201712-JTI/src/sass/_mixin.scss",
+		"/C/Users/ElsaCheng/Repositories/ESi-201712-JTI/src/sass/_partial.scss",
+		"/C/Users/ElsaCheng/Dropbox/Public/Brackets/emmet-settings/snippets.json",
+		"/C/Users/ElsaCheng/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Ignore",
+			"module",
+			"build",
+			"fileinclude"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"fileInclude"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2979,
+								2979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JavaScript (Gulpfile).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1653.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/template/novel-temp.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/slim/test.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/markdown/md/aph_sib.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/slim/0.include/header.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"auto_name": "header",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/slim/1.template/novel-temp.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/slim/0.include/head.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/slim/0.include/footer.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"auto_name": "footer",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/slim/index.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sandbox.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
